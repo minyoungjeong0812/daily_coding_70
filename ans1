@@ -13,9 +13,8 @@ For example, given 1, you should return 19. Given 2, you should return 28.
 ##questions : is there a upper limit for n? can n be something like 10,000? Is there any time complexity requirement? or space complexity too?
 
 def perfect(n):
-    str_n = list(str(n))
 
-    int_str_n = [int(x) for x in str_n]
+    int_str_n = [int(x) for x in list(str(n))]
 
     rem = 10 - sum(int_str_n)
 
@@ -30,6 +29,6 @@ def perfect(n):
 print(perfect(19))
   
   
-     
+  ##analysis : Time complexity O(n). Space complexity : O(1)
   
   
