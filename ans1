@@ -29,6 +29,6 @@ def perfect(n):
 print(perfect(19))
   
   
-  ##analysis : Time complexity O(n). Space complexity : O(1)
+  ##analysis : Time complexity O(1). Space complexity : O(1)
   
   
